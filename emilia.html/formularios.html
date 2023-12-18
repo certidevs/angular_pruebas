@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> formulario Basico </h1>
+   
+   <form action="/backend method="post""> 
+
+    <div>
+        <label for="nombre"> Nombre </label>
+        <input type="text" name="nombre" id="nombre">
+    </div>
+
+
+    <div>
+        <label for="Apellidos"> Apellido </label>
+        <input type="text" name="Apellidos" id="Apellidos">
+    </div>
+
+
+    <div>
+        <label for="nombre"> NIF/DNI </label>
+        <input type="text" name="nif" id="nif" placeholder="1234567h">
+    </div>
+
+
+    <div>
+        <label for="telefono"> telefono movil </label>
+        <input type="text" name="telefono" id="telefono" placeholder="671559159">
+    </div>
+
+    div>
+        <label for="adress"> direccion </label>
+        <input type="Adress" name="direccion" id="direccion">
+    </div>
+
+    <div>
+        <label for="email"> correo Electronico </label>
+        <input type="email" name="email" id="email" placeholder="usuario@gmail.com">
+    </div>
+
+    <div>
+        <label for="contrasena"> contrasena </label>
+        <input type="password" name="contrasena" id="contrasena">
+    </div>
+
+    <div>
+        <label for="salary"> salario </label>
+        <input type="Number" name="salary" id="salary" step="200">
+    </div>
+
+    <div> 
+        <label for="weithg"> peso(kg) </label>
+        <input type="Number" name="weithg" id="weithg" step="0.50">
+    </div>
+
+    <div>
+        <label for="height" >Altura(cm) </label>
+        <input type="number" name="height" id="height" step="0.50" min="50" max="240">
+    </div>
+
+    <div>
+        <label for="bio"> Biografia </label>
+        <textarea name="bio" id="bio" rows="10" col="50" minlength="10" maxlength="100"></textarea>
+    </div>
+
+    <div>
+        <label> Genero </label>
+    </div>
+
+    <div>
+        <input type="radio" id="male" name="Genero" Value="male">
+        <label for="male"> Maculino </label>
+    </div>
+
+    <div>
+        <input type="radio" id="femele" name="Genero" Value="femele">
+        <label for="female"> Femenino </label>
+    </div>
+
+    <div>
+        <input type="radio" id="other" name="Genero" Value="Other">
+        <label for="other"> Otro </label>
+    </div>
+
+    <div>
+
+        <label for="state"> Comunidad Autonoma </label>
+        <select name="state" id="state"> 
+        <option value="m"> Madrid </option>
+        <option value="C"> Cataluna </option>
+        <option value="A"> Andalucia </option>
+        <option value="G"> Galicia </option>
+        <option value="Cl"> Castilla Leon </option>
+        <option value="CM"> Castilla la Mancaha </option>
+        <option value="V"> Valencia </option>
+    </select>
+ </div>
+
+    <div> 
+        <label for="comentarios"> Comentarios </label>
+        <textarea name="comentarios" id="comentarios" cols="60" rows="=3"></textarea>
+     </div>
+
+
+    <div>
+        <label for="Birthday"> fecha de nacimiento </label>
+    <input type="date" id=" birthday" name="birthday" min="2010-01-01" max="2023-12-31">
+</div>
+
+    
+    <div>
+        <label for="courseDateTime"> Fecha ded comienzo del curso de angular </label>
+        <input type="datetime-local" id="courseDatetime" name="courseDateTime">
+       
+    </div>
+    
+    <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms"> Acepta nuestra política de privacidad </label>
+        </div>
+        <div>
+            <button type="submit">Enviar </button>
+        </div>
+
+
+   </form>
+</body>
+</html>
