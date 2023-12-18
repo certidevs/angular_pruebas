@@ -1,3 +1,0 @@
-archivo de prueba
-modificando para conflicto
-mod conflicto

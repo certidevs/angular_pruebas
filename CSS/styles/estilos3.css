@@ -1,0 +1,28 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    margin: 20px;
+
+}
+
+h1 {
+
+    font-size: 45px;
+    font-weight: 900px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20;
+}
+
+p {
+    font-size: 16px;
+  margin-bottom: 10px;
+}
+
+a {
+    color: #e80e0e;
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-    <!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -25,7 +16,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="#">ZARA</a>
+            <img src="logo_d.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+
+            <a class="navbar-brand" href="#">Tienda de Ropa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -35,13 +28,13 @@
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            SELECIONA TU OUTFIT
+                            Comprar
                         </button>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="#">Mujer</a></li>
                             <li><a class="dropdown-item" href="#">Hombre</a></li>
                             <li><a class="dropdown-item" href="#">Niños</a></li>
-                            <li><a class="dropdown-item" href="#">OUTLET</a></li>
+                            <li><a class="dropdown-item" href="#">Productos con descuento</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -53,18 +46,18 @@
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="imagenes/" class="card-img-top" alt="camisa mujer">
+                    <img src="camisa_mujer.jpg" class="card-img-top" alt="camisa mujer">
                     <div class="card-body">
-                        <h5 class="card-title"> MUJER </h5>
-                        <p class="card-text"> FALDAS </p>
+                        <h5 class="card-title"> Camisa de Mujer </h5>
+                        <p class="card-text"> Camisa elegante y cómoda para mujeres. Todas las tallas disponibles. </p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"> LARGAS </li>
-                        <li class="list-group-item"> CORTAS </li>
-                        <li class="list-group-item"> FALDAS-PANTALÓN </li>
+                        <li class="list-group-item"> Diseño moderno y femenino. </li>
+                        <li class="list-group-item"> Disponible en diferentes colores. </li>
+                        <li class="list-group-item"> Perfecta para todas las ocasiones. </li>
                     </ul>
                     <div class="card-body">
-                        <a href="https://www.zara.com/es/es/search?searchTerm=FALDAS&section=WOMAN" class="card-link"> Ver detalles </a>
+                        <a href="https://www.zara.com/es/" class="card-link"> Ver detalles </a>
                     </div>
                 </div>
             </div>
@@ -73,31 +66,31 @@
                 <div class="card" style="width: 18rem;">
                     <img src="pantalon_mujer.jpg" class="card-img-top" alt="panatalon mujer">
                     <div class="card-body">
-                        <h5 class="card-title"> HOMBRE </h5>
-                        <p class="card-text"> CAMISAS</p>
+                        <h5 class="card-title"> Pantalón de Mujer </h5>
+                        <p class="card-text"> Pantalón de moda y cómodo para mujeres. Ideal para trabajar.</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"> Manga corta </li>
-                        <li class="list-group-item"> Manga larga </li>
-                        <li class="list-group-item"> Cuello Mao </li>
+                        <li class="list-group-item"> Ajuste perfecto. </li>
+                        <li class="list-group-item"> Variedad de estilos. </li>
+                        <li class="list-group-item"> Corte moderno. </li>
                     </ul>
                     <div class="card-body">
-                        <a href="https://www.zara.com/es/es/search?searchTerm=camisa&section=MAN" class="card-link"> Ver detalles </a>
+                        <a href="#" class="card-link"> Ver detalles </a>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="saco_hombre.jpg" class="card-img-top" alt="niño">
+                    <img src="saco_hombre.jpg" class="card-img-top" alt="saco hombre">
                     <div class="card-body">
-                        <h5 class="card-title"> NIÑO </h5>
-                        <p class="card-text"> Chandals chulísimos </p>
+                        <h5 class="card-title"> Saco de hombre </h5>
+                        <p class="card-text"> Elegante y versátil para hombres. </p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"> Capucha </li>
-                        <li class="list-group-item"> Abierto </li>
-                        <li class="list-group-item"> Equipaciones </li>
+                        <li class="list-group-item"> Corte clásico. </li>
+                        <li class="list-group-item"> Materiales de alta calidad. </li>
+                        <li class="list-group-item"> Perfecto para negocios. </li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link">Ver detalles</a>
@@ -109,17 +102,17 @@
 
     <div class="card text-center">
         <div class="card-header">
-            <strong> 👽¡OFERTAS DE BLACK FRIDAY!👽 </strong>
+            <strong> 🥳¡OFERTAS DE BLACK FRIDAY!💥 </strong>
         </div>
         <div class="card-body">
-            <h5 class="card-title"> Hasta un 70% de descuento </h5>
-            <p class="card-text"> No te pierdas nuestras increíbles ofertas del Black Friday
-                </p>
+            <h5 class="card-title"> Recibe un correo cuando inicien las ofertas. </h5>
+            <p class="card-text"> ¡No te pierdas nuestras increíbles ofertas del Black Friday!
+                Regístrate para recibir un correo electrónico cuando comiencen las ofertas. </p>
             </p>
-            <a href="#" class="btn btn-dark">Regístrate</a>
+            <a href="#" class="btn btn-primary"> Regístrate ahora </a>
         </div>
         <div class="card-footer text-body-secondary">
-            Hasta el 30 de noviembre
+            Hace dos días
         </div>
     </div>
 
@@ -148,7 +141,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html>
-    
-</body>
 </html>
