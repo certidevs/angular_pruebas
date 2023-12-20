@@ -4,9 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-        
+        {
+            "type": "java",
+            "name": "HolaMundo",
+            "request": "launch",
+            "mainClass": "JAVA.HolaMundo",
+            "projectName": "angular_pruebas_f9770587"
+        },
         {
             "name": "Python: Current File",
             "type": "python",
