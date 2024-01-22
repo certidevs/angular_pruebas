@@ -1,3 +1,0 @@
-
-
-# revisar pdfs
