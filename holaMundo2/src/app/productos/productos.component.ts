@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class ProductosComponent {
 
+  nombres: string[] = ['Coche', 'Moto', 'Patinete', 'Skate', 'Patines'];
+
 }

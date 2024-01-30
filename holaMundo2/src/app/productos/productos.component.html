@@ -1,1 +1,29 @@
 <p>Aqui los productos ofertados</p>
+
+<p>Nombre: {{nombres}}</p>
+
+<ul>
+
+    <li *NgFor="let nombre of nombres">
+        {{nombre}}
+    </li>
+</ul>
+
+<ul>
+
+    <li *NgFor="let nombre of nombres; let i = index">
+        {{nombre}}
+    </li>
+</ul>
+
+<ul>
+
+    <li *NgFor="let nombre of nombres; let i = index">
+        {{i}} - {{nombre}}
+    </li>
+
+</ul>
+
+@for (nombre of nombres; track nombre) {
+    <li>{{nombre}}</li>
+}
